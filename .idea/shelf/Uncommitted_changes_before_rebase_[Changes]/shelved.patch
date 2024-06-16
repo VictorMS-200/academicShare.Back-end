@@ -1,0 +1,14 @@
+Index: .idea/sqldialects.xml
+===================================================================
+diff --git a/.idea/sqldialects.xml b/.idea/sqldialects.xml
+deleted file mode 100644
+--- a/.idea/sqldialects.xml	(revision 3215842e7da6e2049ce77374351088970a72976f)
++++ /dev/null	(revision 3215842e7da6e2049ce77374351088970a72976f)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="SqlDialectMappings">
+-    <file url="file://$PROJECT_DIR$/src/main/resources/db/migrations/V1__create-table-curso.sql" dialect="PostgreSQL" />
+-  </component>
+-</project>
+\ No newline at end of file
