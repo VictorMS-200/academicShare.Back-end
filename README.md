@@ -27,7 +27,7 @@ A API foi desenvolvida utilizando as seguintes tecnologias:
 
 ## Instalação
 
-Para instalar a aplicação é necessário ter o [Maven](https://maven.apache.org/) e o [Java 11](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html) instalados na máquina.
+Para instalar a aplicação é necessário ter o [Maven](https://maven.apache.org/) e o [Java 22.0.1](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) instalados na máquina.
 
 ### Clonar o repositório
 
