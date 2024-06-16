@@ -12,7 +12,7 @@
 
 A API AcademicShare é uma aplicação que tem como objetivo gerenciar publicações de estudantes universitários. A aplicação permite que os usuários possam criar, editar, visualizar e deletar publicações. Além disso, a aplicação permite que os usuários possam visualizar publicações de outros usuários.
 
-Também há um [repositório]() com o código do front-end da aplicação.
+Também há um [repositório](https://github.com/VictorMS-200/AcademicShare.Front-end) com o código do front-end da aplicação.
 
 Essa aplicação foi desenvolvida como projeto final da disciplina de [Usabilidade, desenvolvimento web, mobile e jogos] da Universidade Una de Uberlândia.
 
