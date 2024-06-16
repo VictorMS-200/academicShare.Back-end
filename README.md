@@ -7,7 +7,6 @@
 - [Tecnologias](#tecnologias)
 - [Instalação](#instalação)
 - [Endpoints](#endpoints)
-- [Licença](#licença)
 
 ## Sobre
 
@@ -162,7 +161,3 @@ Abaixo está o modelo de requisição para a rota de publicação.
     "idUsuario": "UUID"
 }
 ```
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE.md) para obter detalhes.
