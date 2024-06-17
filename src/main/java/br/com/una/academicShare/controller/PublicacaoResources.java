@@ -44,7 +44,7 @@ public class PublicacaoResources  {
     // Sava uma nova publicacao
     @PostMapping
     public ResponseEntity<Publicacao> salvar(@RequestBody PublicacaoDTO data) {
-        Publicacao newPublicacao = new Publicacao(data.usuario(), data.assunto(), data.conteudo(), data.resumo());
+        Publicacao newPublicacao = new Publicacao(data.usuario(), data.assunto(), data.conteudo(), data.resumo(), data.imagem(), data.professor());
         Publicacao saved = publicacaoRepositorio.save(newPublicacao);
 
         if (saved == null) {

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d39147c2-f2cb-45cc-bb9a-99cadd17e88c" name="Changes" comment="Commit" />
+    <list default="true" id="d39147c2-f2cb-45cc-bb9a-99cadd17e88c" name="Changes" comment="Adicionando Licença no README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academicshare-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/academicshare-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/controller/PublicacaoResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/controller/PublicacaoResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/model/Dto/PublicacaoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/model/Dto/PublicacaoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/model/domain/Publicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/model/domain/Publicacao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +64,7 @@
     &quot;Maven.academicshare-api [package].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/lusto/OneDrive/Ulife/academicShare-master/academicShare-master&quot;,
@@ -65,6 +73,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -183,6 +194,7 @@
       <workItem from="1718398841773" duration="3237000" />
       <workItem from="1718553111281" duration="2556000" />
       <workItem from="1718556180940" duration="136000" />
+      <workItem from="1718596400453" duration="5300000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -219,7 +231,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
