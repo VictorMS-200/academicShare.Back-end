@@ -4,6 +4,7 @@ import br.com.una.academicShare.Infra.security.TokenService;
 import br.com.una.academicShare.model.Dto.AuthenticationDTO;
 import br.com.una.academicShare.model.Dto.LoginResponseDTO;
 import br.com.una.academicShare.model.Dto.RegisterDTO;
+import br.com.una.academicShare.model.domain.UserRole;
 import br.com.una.academicShare.model.domain.Usuario;
 import br.com.una.academicShare.model.repository.UsuarioRepositorio;
 import jakarta.validation.Valid;
@@ -66,7 +67,20 @@ public class AuthenticationController {
         }
 
         String encryptedPassword = new BCryptPasswordEncoder().encode(data.senha());
-        Usuario newUser = new Usuario(data.email(), encryptedPassword, data.role(), data.curso(), data.numeroDeMatricula(), data.nome(), data.avatar());
+
+        Usuario newUser = new Usuario();
+        System.out.println(data.role());
+
+        if (data.role() == UserRole.GUEST) {
+            newUser = new Usuario(data.email(), encryptedPassword, data.role(), data.nome(), data.avatar());
+        }
+
+        if (data.role() == UserRole.USER || data.role() == null){
+            newUser = new Usuario(data.email(), encryptedPassword, data.role(), data.curso(), data.numeroDeMatricula(), data.nome(), data.avatar());
+        }
+        if (data.role() == UserRole.ADMIN) {
+            return ResponseEntity.badRequest().build();
+        }
 
         this.repositorio.save(newUser);
 
