@@ -32,7 +32,15 @@ public class Publicacao {
     @Column(columnDefinition = "TEXT")
     private String conteudo;
 
-    @ManyToOne(cascade= CascadeType.MERGE)
+    @Getter
+    @Column(columnDefinition = "TEXT")
+    private String imagem;
+
+    @Getter
+    @Column(columnDefinition = "TEXT")
+    private String professor;
+
+    @ManyToOne(cascade= MERGE)
     @JoinColumn(name = "id_autor")
     private Usuario usuario;
 
@@ -43,12 +51,14 @@ public class Publicacao {
     public Publicacao() {
     }
 
-    public Publicacao(Usuario usuario, Assunto assunto, String conteudo, String resumo) {
+    public Publicacao(Usuario usuario, Assunto assunto, String conteudo, String resumo, String imagem, String professor) {
         this.conteudo = conteudo;
         this.usuario = usuario;
         this.assunto = new Assunto(assunto.getNome());
         this.dataPublicacao = new Date();
         this.resumo = resumo;
+        this.imagem = imagem;
+        this.professor = professor;
     }
 
     @Override

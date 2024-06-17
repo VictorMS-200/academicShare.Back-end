@@ -40,6 +40,14 @@ public class Usuario implements UserDetails {
     @Getter
     private String avatar;
 
+    public Usuario(String email, String encryptedPassword, UserRole role, String nome, String avatar) {
+        this.email = email;
+        this.senha = encryptedPassword;
+        this.role = role;
+        this.nome = nome;
+        this.avatar = avatar;
+    }
+
     public String getEmail() {
         return email;
     }
@@ -77,7 +85,11 @@ public class Usuario implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        if (this.role == UserRole.ADMIN) return List.of(new SimpleGrantedAuthority("ROLE_ADMIN"), new SimpleGrantedAuthority("ROLE_USER"));
+        if (this.role == UserRole.ADMIN)
+            return List.of(new SimpleGrantedAuthority("ROLE_ADMIN"), new SimpleGrantedAuthority("ROLE_USER"));
+        if (this.role == UserRole.GUEST)
+            return List.of(new SimpleGrantedAuthority("ROLE_GUEST"));
+
         else return List.of(new SimpleGrantedAuthority("ROLE_USER"));
     }
 

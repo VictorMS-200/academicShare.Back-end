@@ -2,7 +2,8 @@ package br.com.una.academicShare.model.domain;
 
 public enum UserRole {
     ADMIN("ADMIN"),
-    USER("USER");
+    USER("USER"),
+    GUEST("GUEST");
 
     private String role;
 
