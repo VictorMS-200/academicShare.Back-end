@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d39147c2-f2cb-45cc-bb9a-99cadd17e88c" name="Changes" comment="Adicionando imagem e professor na Publicacao.java">
+    <list default="true" id="d39147c2-f2cb-45cc-bb9a-99cadd17e88c" name="Changes" comment="Adicionando Usuario comum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/Infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/Infra/security/SecurityConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/model/domain/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/model/domain/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/model/domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/una/academicShare/model/domain/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,10 @@
       <workItem from="1718553111281" duration="2556000" />
       <workItem from="1718556180940" duration="136000" />
       <workItem from="1718596400453" duration="5300000" />
-      <workItem from="1718649962818" duration="6126000" />
+      <workItem from="1718649962818" duration="6542000" />
+      <workItem from="1718662398087" duration="2563000" />
+      <workItem from="1718743243334" duration="2865000" />
+      <workItem from="1718750553198" duration="1480000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -227,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718650034579</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adicionando Usuario comum">
+      <option name="closed" value="true" />
+      <created>1718659505203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718659505203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +267,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <MESSAGE value="Adicionando imagem e professor na Publicacao.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando imagem e professor na Publicacao.java" />
+    <MESSAGE value="Adicionando Usuario comum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando Usuario comum" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
